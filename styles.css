@@ -128,7 +128,7 @@ hr {
   margin: auto;
 }
 .recipe-section h2 {
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   font-size: 36px;
 }
@@ -168,6 +168,10 @@ hr {
   .my-photo {
     padding: 0 50px;
   }
+  .how-to-section {
+    display: block;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 1000px) {
   .about-section {
@@ -192,6 +196,14 @@ hr {
   .recipe-description p {
     font-size: 16px;
   }
+  .how-to-section {
+    padding: 50px 10px 0;
+    display: block;
+    margin: 0 auto;
+  }
+  .recipe-section h2 {
+    text-align: center;
+  }
 }
 @media (max-width: 500px) {
   .hero {
@@ -199,7 +211,9 @@ hr {
   }
   h1 {
     font-size: 42px;
-    margin-top: 50px;
+    margin: 50px auto 0;
+    text-align: center;
+    width: 100%;
   }
 
   .hero h1 {
