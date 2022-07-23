@@ -7,8 +7,8 @@ pexels-fuzzy-rescue-3669638 :root {
 
 body {
   font-family: "Nunito", sans-serif;
-  display: block;
-  margin: 0 auto;
+  /*  display: block;
+  margin: 0 auto;*/
 }
 
 h1 {
@@ -309,6 +309,8 @@ nav a {
   h1,
   .hero h1 {
     font-size: 42px;
+    margin-top: 0;
+
     margin-bottom: 20px;
     padding-top: 20px;
     line-height: 42px;
