@@ -31,6 +31,33 @@ hr {
   border: none;
   border-top: 2px dashed #67d5d2;
 }
+nav {
+  padding: 20px 0 20px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 35px;
+  position: relative;
+  top: 30%;
+}
+nav a.active {
+  color: #662eed;
+}
+nav a:hover {
+  color: #662eed;
+  font-size: 16px;
+  transition: all 100ms ease-in-out;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  font-weight: 700;
+}
 .hero p {
   font-weight: normal;
   line-height: 30px;
@@ -271,6 +298,10 @@ hr {
   }
 }
 @media (max-width: 400px) {
+  nav li {
+    margin-left: 10px;
+    font-size: 16px;
+  }
   .hero {
     padding-top: 0px;
     max-height: 180px;
@@ -279,10 +310,10 @@ hr {
   .hero h1 {
     font-size: 42px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    padding-top: 20px;
     line-height: 42px;
   }
   .hero p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
