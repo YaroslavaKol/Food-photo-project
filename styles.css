@@ -103,8 +103,8 @@ footer {
 
 .about-section,
 .recipe-section {
-  padding: 100px 10px 0;
-  margin: 30px 140px 0;
+  padding: 50px 10px 50px;
+  margin: 30px 140px 30px;
   text-align: center;
 }
 
