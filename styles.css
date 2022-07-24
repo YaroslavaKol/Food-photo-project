@@ -94,11 +94,13 @@ footer {
   padding: 0 30px;
 }
 
-.recipe-container p {
+.recipe-container a {
   color: black;
   margin-top: 20px;
+  padding-bottom: 30px;
   font-size: 28px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .about-section,
