@@ -58,6 +58,9 @@ nav a {
   color: #272142;
   font-weight: 700;
 }
+footer {
+  background: #f9f7fe;
+}
 .hero p {
   font-weight: normal;
   line-height: 30px;
@@ -190,6 +193,13 @@ nav a {
   line-height: 30px;
 }
 
+.email-link {
+  text-decoration: none;
+  font-size: 28px;
+  color: black;
+  padding-bottom: 40px;
+}
+
 @media (max-width: 1300px) {
   .about-section p,
   .container {
@@ -249,6 +259,16 @@ nav a {
   }
   .contact-info {
     margin: 0 auto 20px 20px;
+  }
+  .email-link {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+  .footer-icons {
+    font-size: 24px;
+  }
+  .footer-logo {
+    font-size: 24px;
   }
 }
 @media (max-width: 500px) {
@@ -317,5 +337,8 @@ nav a {
   }
   .hero p {
     font-size: 16px;
+  }
+  .footer-logo {
+    display: none;
   }
 }
